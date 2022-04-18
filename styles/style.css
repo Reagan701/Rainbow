@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Rainbow{
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.Rainbow:after{
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    width: 50%;
+    height: 100%;
+    box-shadow: 0 0 0 2vw red, 0 0 0 4vw orange, 0 0 0 6vw yellow,
+    0 0 0 8vw green, 0 0 0 10vw blue, 0 0 0 12vw indigo, 0 0 0 14vw violet;
+
+    left: 25%;
+    top: 50%;
+    overflow: hidden;
+}
