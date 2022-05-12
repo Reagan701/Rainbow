@@ -1,6 +1,16 @@
 *{
     margin:0px;
     padding: 0px;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    padding-top: 4rem ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: beige;
+    text-decoration: underline;
+    font-size: 4rem;
 }
 
 body{
@@ -12,6 +22,7 @@ body{
 .Rainbow{
     position: relative;
     display: flex;
+    bottom: 5.25rem;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -23,8 +34,8 @@ body{
     border-radius: 50%;
     width: 50%;
     height: 100%;
-    box-shadow: 0 0 0 2vw red, 0 0 0 4vw orange, 0 0 0 6vw yellow,
-    0 0 0 8vw green, 0 0 0 10vw blue, 0 0 0 12vw indigo, 0 0 0 14vw violet;
+    box-shadow: 0 0 10px 2vw blueviolet, 0 0 10px 4vw indigo, 0 0 10px 6vw blue,
+    0 0 10px 8vw green, 0 0 10px 10vw yellow, 0 0 10px 12vw orange, 0 0 0 14vw red;
 
     left: 25%;
     top: 50%;
